@@ -1,0 +1,129 @@
+section {
+.banner3 img {
+  
+    margin-bottom: 10px;
+    width: 100%;
+    
+  }
+  .flex-container3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flex-box3 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    img{
+        transition: all 300ms;
+        position: relative;
+        &:hover{
+            transform: scale(1.1);
+        
+    }
+    
+  }
+}
+      
+  .flex-box4 img{
+    
+    transition: all 300ms;
+    position: relative;
+    &:hover{
+        transform: scale(1.1);
+  
+  }
+}
+  
+ 
+  .flex-box5 img{
+    
+    transition: all 300ms;
+    position: relative;
+    &:hover{
+        transform: scale(1.1);
+  
+  }
+}
+  
+ 
+  .flex-box3 p{
+    text-align: justify;
+  }
+  
+  .flex-container4 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .flex-box4 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    p{
+        text-align: justify;
+    }
+    img{
+        width: 100%;
+        justify-content: space-between;
+        object-fit: cover;
+    }
+  }
+    
+  
+  .flex-container5 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 35px;
+  }
+  .flex-box5 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    p{
+        text-align: justify; 
+    }
+  }
+    
+  @media screen and (min-width: 1000px) {
+    .flex-container3 {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      
+        }
+     
+    
+    .flex-container4 {
+      display: flex;
+      flex-direction: row;
+    }
+    .flex-container5 {
+      display: flex;
+      flex-direction: row;
+    }
+  
+  }
+    
+  @media screen and (max-width: 1000px) {
+    .flex-box3 {
+      width: 100%;
+     } 
+     .flex-box4 {
+      width: 100%;
+     } 
+     .flex-box5 {
+      width: 100%;
+     } 
+     }
+    }
